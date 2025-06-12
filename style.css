@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #001e4d;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.box h1{
+    font-size: 25px;
+    color: #001e4d;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.box h2{
+    font-size: 18px;
+    font-weight: 600;
+    color: #001e4d;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.box{
+    width: 90%;
+    max-width: 600px;
+    border: 2px solid black;
+    margin-top: 150px;
+    padding: 1.5rem;
+    background-color: azure;
+    border-radius: 14px;
+    
+}
+
+.All-Button{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.btn{
+  background-color: azure;
+  color: #333;
+  padding: 10px 15px;
+  margin: 8px 0;
+  width: 100%;
+  text-align: left;
+  border: 1px solid black;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover:not([disabled]){
+  background-color: black;
+  color: white;
+  transform: scale(1.02);
+}
+
+.btn:disabled{
+    cursor: no-drop;
+}
+
+#next-btn{
+  background-color: #001e4d;      /* Success Green */
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 15px;
+  width: 150px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: none;
+}
+
+
+#next-btn{
+    margin-left: 60%;
+}
+
+.correct{
+    background-color: #9aeabc;
+}
+
+.incorrect{
+    background-color: #ff9393;
+}
+
+
